@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="loading.css"?>
+<!DOCTYPE svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+	<title>Page is Loading</title>
+	<desc>To show a graphic that appears to be loading</desc>
+	
+	<g id="primary">
+		<circle id="circle-1" cx="20" cy="20" r="5" />
+		<circle id="circle-2" cx="50" cy="20" r="5" />
+		<circle id="circle-3" cx="80" cy="20" r="5" />
+	</g>
+</svg>
+

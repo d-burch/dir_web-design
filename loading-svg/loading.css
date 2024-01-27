@@ -1,0 +1,67 @@
+/*Change fill color on all circles to get different effect*/
+circle {
+	fill: #444444;
+	animation-duration: .75s;
+	animation-iteration-count: 100;
+	stroke: #444444;
+	stroke-width: 0;
+	opacity: .5;
+}
+
+circle#circle-1 {
+	animation-name: first;
+}
+
+circle#circle-2 {
+	animation-name: second;
+}
+
+circle#circle-3 {
+	animation-name: third;
+}
+
+@keyframes first {
+	0% {
+		stroke-width: 0;
+		opacity: .5;
+	}
+	20% {
+		stroke-width: 5;
+		opacity: 1;
+	}
+	40% {
+		stroke-width: 0;
+		opacity: .5;
+	}
+}
+
+@keyframes second {
+	20% {
+		stroke-width: 0;
+		opacity: .5;
+	}
+	40% {
+		stroke-width: 5;
+		opacity: 1;
+	}
+	60% {
+		stroke-width: 0;
+		opacity: .5;
+	}
+}
+
+@keyframes third {
+	40% {
+		stroke-width: 0;
+		opacity: .5;
+	}
+	60% {
+		stroke-width: 5;
+		opacity: 1;
+	}
+	80% {
+		stroke-width: 0;
+		opacity: .5;
+	}
+}
+	
