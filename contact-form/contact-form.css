@@ -1,0 +1,73 @@
+/*Forms*/
+form {
+	background-color: #dddddd;
+	padding: 10px;
+}
+
+form p {
+	font-size: 14px;
+}
+
+form div {
+	margin: 10px 0px;
+}
+
+input {
+	width: calc(100% - 22px); /*Padding and border caused overflow*/
+	border: .5px solid #777777;
+	padding: 10px;
+	font-size: 17px;
+}
+
+input[type="submit"] {
+	width: 100%;
+	margin-top: 20px;
+	padding: 10px 20px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	background-color: #335599;
+	color: white;
+	border-radius: 2px;
+}
+
+/*Chrome default of yellow background, can't override background-color*/
+input:-webkit-autofill {
+	transition-property: background-color;
+	transition-duration: 20000s;
+}
+
+/*iOS fix to remove default styling on form elements*/
+input, textarea {
+	-webkit-appearance: none;
+	border-radius: 0px;
+}
+
+input:focus {
+	outline: none;
+	box-shadow: 0px 0px 3px 3px rgba(50, 50, 50, .3);
+}
+
+input.highlight:focus:valid {
+	box-shadow: inset 0px 0px 2px 2px rgba(50, 255, 50, .5);
+	background-color: white;
+}
+
+input.highlight:invalid {
+	box-shadow: inset 0px 0px 2px 2px rgba(255, 50, 50, .5);
+}
+
+p.field-required, p.max-characters, p.invalid-character {
+	display: none;
+}
+
+p.field-required.on, p.max-characters.on, p.invalid-character.on {
+	display: block;
+}
+
+div#more-comments-field {
+	position: absolute;
+	right: -5000px;
+	display: none;
+	}
+
+/*End forms*/
