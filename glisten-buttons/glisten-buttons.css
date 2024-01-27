@@ -1,0 +1,88 @@
+div#button-holder {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 50;
+}
+
+div#button-holder a {
+	display: block;
+	width: 160px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 10px 5px;
+	margin: 10px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px 5px rgba(150, 150, 150, .2);
+}
+
+.animated {
+	background-image: linear-gradient(110deg, #14aae2 0%, #14aae2 100%);
+	animation-duration: 4s;
+	animation-name: color;
+	animation-timing-function: linear;
+	animation-delay: 1s;
+	animation-iteration-count: 50;
+}
+
+.animated:hover {
+	background-image: linear-gradient(110deg, #049ad2 0%, #049ad2 100%);
+}
+
+@keyframes color {
+	0% {
+		background-image: linear-gradient(110deg, #14aae2 0%, #14aae2 100%);
+	}
+	
+	1% {
+		background-image: linear-gradient(110deg, #24baf2 0%, #14aae2 10%, #14aae2 20%, #14aae2 30%, #14aae2 40%, #14aae2 50%, #14aae2 60%, #14aae2 70%, #14aae2 80%, #14aae2 90%, #14aae2 100%);
+	}
+	
+	2% {
+		background-image: linear-gradient(110deg, #14aae2 0%, #24baf2 10%, #14aae2 20%, #14aae2 30%, #14aae2 40%, #14aae2 50%, #14aae2 60%, #14aae2 70%, #14aae2 80%, #14aae2 90%, #14aae2 100%);
+	}
+	
+	3% {
+		background-image: linear-gradient(110deg, #14aae2 0%, #14aae2 10%, #24baf2 20%, #14aae2 30%, #14aae2 40%, #14aae2 50%, #14aae2 60%, #14aae2 70%, #14aae2 80%, #14aae2 90%, #14aae2 100%);
+	}
+	
+	4% {
+		background-image: linear-gradient(110deg, #14aae2 0%, #14aae2 10%, #14aae2 20%, #24baf2 30%, #14aae2 40%, #14aae2 50%, #14aae2 60%, #14aae2 70%, #14aae2 80%, #14aae2 90%, #14aae2 100%);
+	}
+	
+	5% {
+		background-image: linear-gradient(110deg, #14aae2 0%, #14aae2 10%, #14aae2 20%, #14aae2 30%, #24baf2 40%, #14aae2 50%, #14aae2 60%, #14aae2 70%, #14aae2 80%, #14aae2 90%, #14aae2 100%);
+	}
+	
+	6% {
+		background-image: linear-gradient(110deg, #14aae2 0%, #14aae2 10%, #14aae2 20%, #14aae2 30%, #14aae2 40%, #24baf2 50%, #14aae2 60%, #14aae2 70%, #14aae2 80%, #14aae2 90%, #14aae2 100%);
+	}
+	
+	7% {
+		background-image: linear-gradient(110deg, #14aae2 0%, #14aae2 10%, #14aae2 20%, #14aae2 30%, #14aae2 40%, #14aae2 50%, #24baf2 60%, #14aae2 70%, #14aae2 80%, #14aae2 90%, #14aae2 100%);
+	}
+	
+	8% {
+		background-image: linear-gradient(110deg, #14aae2 0%, #14aae2 10%, #14aae2 20%, #14aae2 30%, #14aae2 40%, #14aae2 50%, #14aae2 60%, #24baf2 70%, #14aae2 80%, #14aae2 90%, #14aae2 100%);
+	}
+	
+	9% {
+		background-image: linear-gradient(110deg, #14aae2 0%, #14aae2 10%, #14aae2 20%, #14aae2 30%, #14aae2 40%, #14aae2 50%, #14aae2 60%, #14aae2 70%, #24baf2 80%, #14aae2 90%, #14aae2 100%);
+	}
+	
+	10% {
+		background-image: linear-gradient(110deg, #14aae2 0%, #14aae2 10%, #14aae2 20%, #14aae2 30%, #14aae2 40%, #14aae2 50%, #14aae2 60%, #14aae2 70%, #14aae2 80%, #24baf2 90%, #14aae2 100%);
+	}
+	
+	11% {
+		background-image: linear-gradient(110deg, #14aae2 0%, #14aae2 10%, #14aae2 20%, #14aae2 30%, #14aae2 40%, #14aae2 50%, #14aae2 60%, #14aae2 70%, #14aae2 80%, #14aae2 90%, #24baf2 100%);
+	}
+	
+	
+	12% {
+		background-image: linear-gradient(110deg, #14aae2 0%, #14aae2 100%);
+	}
+}
